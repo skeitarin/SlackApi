@@ -14,8 +14,8 @@ namespace BotTriggerTest
         static void Main(string[] args)
         {
             // POSTする対象のURL
-            var token = "xoxp-75124025591-75124025671-127709936900-ed820c6b394ae43216e1a3ef67cf63d0"; // トークンの取得（http://qiita.com/rubytomato@github/items/6558bfdb37d982891c09）
-            var channel = "@keitabot"; // 投稿するチャンネル(#は不要）。Direct Messageの場合は@username
+            var token = "XXXXXXXXXXXXXXXXXXXXXX"; // トークンの取得（http://qiita.com/rubytomato@github/items/6558bfdb37d982891c09）
+            var channel = "shimitest"; // 投稿するチャンネル(#は不要）。Direct Messageの場合は[@username]
                 var text = "Hello World"; // 投稿するメッセージ
                 var url = "https://slack.com/api/chat.postMessage?token=" + token + "&channel=" + channel + "&text=" + text + "&as_user=true";
 
