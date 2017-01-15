@@ -95,8 +95,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="Properties\PublishProfiles\KeitaBot - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\KeitaBot - Web Deploy.pubxml" />
     <None Include="Properties\webjob-publish-settings.json" />
     <None Include="README.md" />
   </ItemGroup>
